@@ -1,0 +1,26 @@
+.bodyDiv {
+    position: relative;
+    background: #D0D1D7;
+    padding: 20px 13px;
+    width: 100%;
+    min-height: 450px;
+    border-radius: 13px;
+  }
+  .CalculatorHead {
+    padding: 0px 24px;
+    width: 100%;
+    overflow: hidden;
+    
+  }
+  .CalculatorHead img{
+    width: 100px;
+  }
+  .Solar{
+
+  }
+  .SolarRow{
+
+  }
+  .section{
+      
+  }

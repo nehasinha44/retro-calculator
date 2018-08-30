@@ -1,0 +1,91 @@
+.bodyDiv {
+    position: relative;
+    background: #D0D1D7;
+    padding: 20px 13px;
+    width: 100%;
+    min-height: 450px;
+    border-radius: 13px;
+    box-shadow: 0 24px 23px -5px rgba(0, 0, 0, 0.5);
+  }
+  .CalculatorHead {
+    padding: 0px 24px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+  }
+  .CalculatorHead img{
+    width: 50%;
+    height: 19px;
+    margin-top: 12px;
+    margin-right: 20px;
+    flex: 1;
+  }
+  .Solar{
+    flex: 1;
+  }
+  .SolarRow{
+    background: #000;
+    width: 100%;
+    border: 4px ridge #706F71;
+    box-shadow: inset 0px 5px 5px #000;
+    border-radius: 6px;
+    height: 40px;
+  }
+  .section{
+    width: calc(20% - 1px);
+    height: 32px;
+    float: left;
+    background: #000;
+    border-right: 1px solid rgba(255, 0, 0, 0.4);
+  }
+  .solotext{
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .screen{
+    background: linear-gradient( to bottom,#4f5053 50%, #6E727B 100%);
+    border-radius: 6px 6px 12px 12px;
+    padding: 18px 14px;
+  }
+  .screen .screenInside{
+    height: 90px;
+    padding: 10px 10px;
+    border-radius: 3px;
+    background: linear-gradient( to bottom,#c3ced0 30%, #DBE2EA 100%);
+    text-align: right;
+  }
+  .modelNumber{
+      font-size: 10px;
+  }
+  .KeyboradBase{
+    padding:  4px 10px 14px;
+  }
+  .KeyPad{
+      width: 100%;
+  }
+  .KeyPad .cell{
+    display: inline-block;
+    width: 20%;
+    padding: 5px 4px;
+  }
+  .-small button {
+    height: 30px;
+}
+.KeyPad .cell button{
+    z-index: 5;
+    font-size: 16px;
+    display: block;
+    color: #fff;
+    background: linear-gradient(to bottom,#404040 50%,#303030 100%);
+    transition: all 0.2s;
+    cursor: pointer;
+    outline: none;
+    text-shadow: 2px 3px 1px rgba(0,0,0,0.3);
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1), 0px 0px 0px 1px rgba(0,0,0,0.8), inset 1px 0px 1px 0px rgba(0,0,0,0.3), inset -1px 0px 1px 0px rgba(0,0,0,0.3), inset 0px 1px 1px 0px rgba(255,255,255,0.4), inset 0px -3px 3px rgba(255,255,255,0.1), 0px 8px 10px 0px rgba(0, 0, 0, .3);
+    border-radius: 6px 6px 12px 12px;
+    width: 100%
+}
+button:hover {
+    background: linear-gradient(to bottom,#606060 30%,#303030 100%);
+}
